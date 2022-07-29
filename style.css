@@ -1,0 +1,120 @@
+
+
+html {
+    max-width: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: black ;
+    
+}
+
+hr {
+    border-width: 3px;
+    color: rgb(82, 78, 78);
+    border: solid;
+    width: 40px;
+    align-self: center;
+}
+
+
+header {
+    background-image: url(th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    padding: 50px;
+    color: aliceblue;
+}
+
+body {
+  width: 800px;
+  margin: 50px;
+  align-self: center;
+  background-color: beige;
+  
+}
+
+footer {
+    background-image: url(th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    width: auto;
+    align-content: center;
+}
+
+
+
+img {
+    display: block;
+    margin: 0 auto;
+  width: 50%;
+  padding-top: 75px;
+  align-items: center;
+  position: static;
+  
+}
+ 
+h1 {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+}
+
+h2 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+h3 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+    max-width: 40%;
+    align-content: center;
+
+
+  }
+ 
+li, ul {
+    align-content: center; 
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-size: 22px;
+  color: grey;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: auto;
+}
+
+
+
+
+/* ---- Advanced ---- */
+/* This tag is a bit advanced for this lesson,  
+   but is needed to wrap the pageContainer 
+   around any sized content that is floated within it. */
+
+.pageContainer:after { 
+  content: " ";
+  display: table;
+  clear: both;
+}
+ 

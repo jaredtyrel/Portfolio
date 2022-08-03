@@ -4,6 +4,8 @@ html {
   
 }
 
+
+/* i added a border to seperate titles and sections of the protfolio */
 hr {
   border-width: 1px;
   color: rgb(122, 99, 253);
@@ -12,14 +14,19 @@ hr {
 }
 
 
+/* div class so certain things will line up  */
+div {
+padding-left: 250px;
+}
+
+
 header {
   background-color: rgb(122, 99, 253);
+  width: 800px;
   display: table;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50%;
-  padding-right: 50%;
 }
 
 a{
@@ -45,6 +52,8 @@ footer {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 800px;
+
 }
 
 
@@ -62,34 +71,27 @@ position: static;
 h1 {
 font-family: Times, "Times New Roman", Georgia, serif;
 font-size: 40px;
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 text-align: center;
 }
 
 h2 {
   font-family: Times, "Times New Roman", Georgia, serif;
   font-size: 30px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
 h3 {
   font-family: Times, "Times New Roman", Georgia, serif;
   font-size: 25px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
-h4 {
-  font-family: Times, "Times New Roman", Georgia, serif;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding-bottom: 10px;
-}
 
 p {
-  text-align: center;
+  text-align: left;
   font-size: 19px;
   padding: 10px;
   max-width: 40%;
@@ -99,11 +101,12 @@ p {
 }
 
 li, ul {
+  text-decoration: underline;
   align-content: center; 
 font-family: Times, "Times New Roman", Georgia, serif;
-font-size: 22px;
-color: grey;
+color: rgb(0, 0, 0);
 text-align: left;
-padding-left: 20%;
+padding-left: 5%;
 padding-right: auto;
+font-size: medium;
 }

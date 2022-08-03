@@ -1,120 +1,109 @@
-
-
 html {
-    max-width: auto;
-    padding-left: 30%;
-    padding-right: 30%;
-    background-color: black ;
-    
+  max-width: auto;
+  background-color: rgb(255, 255, 255) ;
+  
 }
 
 hr {
-    border-width: 3px;
-    color: rgb(82, 78, 78);
-    border: solid;
-    width: 40px;
-    align-self: center;
+  border-width: 1px;
+  color: rgb(122, 99, 253);
+  width: 75%;
+  align-self: center;
 }
 
 
 header {
-    background-image: url(th.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-content: center;
-    padding: 50px;
-    color: aliceblue;
+  background-color: rgb(122, 99, 253);
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+a{
+font-size: 15px;
+text-align: center;
+color: rgb(0, 2, 119);
 }
 
 body {
-  width: 800px;
-  margin: 50px;
-  align-self: center;
-  background-color: beige;
-  
+width: 800px;
+margin: 50px;
+display: table;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(247, 247, 184);
+
 }
 
 footer {
-    background-image: url(th.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 40px;
-    padding-bottom: 100px;
-    width: auto;
-    align-content: center;
+  background-color: rgb(122, 99, 253);
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 
 img {
-    display: block;
-    margin: 0 auto;
-  width: 50%;
-  padding-top: 75px;
-  align-items: center;
-  position: static;
-  
+  display: block;
+  margin: 0 auto;
+width: 50%;
+padding-top: 75px;
+align-items: center;
+position: static;
+
 }
- 
+
 h1 {
+font-family: Times, "Times New Roman", Georgia, serif;
+font-size: 40px;
+color: rgb(255, 255, 255);
+text-align: center;
+}
+
+h2 {
   font-family: Times, "Times New Roman", Georgia, serif;
-  font-size: 50px;
+  font-size: 30px;
   color: aliceblue;
   text-align: center;
 }
 
-h2 {
-    font-family: Times, "Times New Roman", Georgia, serif;
-    font-size: 30px;
-    color: aliceblue;
-    text-align: center;
-  }
-
 h3 {
-    font-family: Times, "Times New Roman", Georgia, serif;
-    font-size: 25px;
-    color: black;
-    text-align: center;
-  }
-
-  h4 {
-    font-family: Times, "Times New Roman", Georgia, serif;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-    font-size: 19px;
-    padding: 10px;
-    max-width: 40%;
-    align-content: center;
-
-
-  }
- 
-li, ul {
-    align-content: center; 
   font-family: Times, "Times New Roman", Georgia, serif;
-  font-size: 22px;
-  color: grey;
-  text-align: left;
-  padding-left: 20%;
-  padding-right: auto;
+  font-size: 25px;
+  color: black;
+  text-align: center;
 }
 
-
-
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
-
-.pageContainer:after { 
-  content: " ";
-  display: table;
-  clear: both;
+h4 {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 10px;
 }
- 
+
+p {
+  text-align: center;
+  font-size: 19px;
+  padding: 10px;
+  max-width: 40%;
+  align-content: center;
+
+
+}
+
+li, ul {
+  align-content: center; 
+font-family: Times, "Times New Roman", Georgia, serif;
+font-size: 22px;
+color: grey;
+text-align: left;
+padding-left: 20%;
+padding-right: auto;
+}

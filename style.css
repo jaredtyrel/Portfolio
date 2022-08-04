@@ -48,6 +48,8 @@ text-align: center;
 color: rgb(0, 0, 0);
 }
 
+/* Pseudo code that will change the color of the Links when it has been visited */
+
 a:visited {
   color: #921313;
 }
@@ -81,8 +83,6 @@ footer {
   align-content: center; 
 }
 
-
-
 img {
   display: block;
   margin: 0 auto;
@@ -90,7 +90,6 @@ width: 50%;
 padding-top: 75px;
 align-items: center;
 position: static;
-
 }
 
 h1 {
@@ -125,6 +124,8 @@ p {
 
 }
 
+/* Used for the list of my Hobbies */
+
 ul {
   align-content: center; 
   font-family: Times, "Times New Roman", Georgia, serif;
@@ -134,6 +135,8 @@ ul {
   padding-right: auto;
   font-size: medium;
 }
+
+/* Used for my Contacts Section */
 
 ol {
   padding-left: 300px;

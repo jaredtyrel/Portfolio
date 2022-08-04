@@ -19,6 +19,8 @@ div {
 padding-left: 250px;
 }
 
+/* article used for my contact List*/
+
 article {
   width: 800px;
   padding: auto;
@@ -27,8 +29,10 @@ article {
   }
 
 
+/* The Header will only contain my Name and Title */
+
 header {
-  background-color: rgb(122, 99, 253);
+  background-color: rgb(164, 181, 236);
   width: 800px;
   display: table;
   text-align: center;
@@ -36,14 +40,23 @@ header {
   margin-right: auto;
 }
 
+/* All Links Should be centered and Black */
+
 a{
 font-size: 18px;
 text-align: center;
-color: rgb(0, 2, 119);
+color: rgb(0, 0, 0);
 }
 
+a:visited {
+  color: #921313;
+}
+
+/* Pseudo code so that there will be a color change  when the Links are hovered over */
+
 a:hover {
-  color: red;
+  padding: 3px;
+  color: rgb(0, 0, 0);
   background-color: yellow;
 }
 
@@ -59,7 +72,7 @@ background-color: rgb(247, 247, 184);
 }
 
 footer {
-  background-color: rgb(122, 99, 253);
+  background-color: rgb(164, 181, 236);
   display: table;
   text-align: center;
   margin-left: auto;

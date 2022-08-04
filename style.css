@@ -20,7 +20,10 @@ padding-left: 250px;
 }
 
 article {
-  padding-left: 250px;
+  width: 800px;
+  padding: auto;
+  text-align: center;
+  margin: auto;
   }
 
 
@@ -34,9 +37,14 @@ header {
 }
 
 a{
-font-size: 15px;
+font-size: 18px;
 text-align: center;
 color: rgb(0, 2, 119);
+}
+
+a:hover {
+  color: red;
+  background-color: yellow;
 }
 
 body {
@@ -105,7 +113,6 @@ p {
 }
 
 li, ul {
-  text-decoration: underline;
   align-content: center; 
 font-family: Times, "Times New Roman", Georgia, serif;
 color: rgb(0, 0, 0);
@@ -113,4 +120,12 @@ text-align: left;
 padding-left: 5%;
 padding-right: auto;
 font-size: medium;
+}
+
+ol {
+  text-decoration: underline;
+  padding-left: 5%;
+  padding-right: auto;
+  font-size: medium;
+  padding-left: 250px;
 }
